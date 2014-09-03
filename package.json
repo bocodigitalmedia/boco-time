@@ -1,0 +1,25 @@
+{
+  "name": "boco-time",
+  "version": "0.0.0",
+  "description": "Time classes and utilities",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./node_modules/coffee-script/bin/coffee -l README.md",
+    "compile": "rm -rf lib && mkdir lib && ./node_modules/coffee-script/bin/coffee -cm -o lib coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bocodigitalmedia/boco-time.git"
+  },
+  "keywords": [
+    "time"
+  ],
+  "author": "Christian Bradley <christianbradley@gmail.com> (https://github.com/christianbradley)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bocodigitalmedia/boco-time/issues"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
